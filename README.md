@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-</head>
-
-<body>
-    <div id="app"></div>
+> 看看源码就行 简单的一批
+```html
     <script type="module">
         import Vue from 'https://unpkg.com/vue@2.6.0/dist/vue.esm.browser.min.js';
         import VClip  from '../index.js'
@@ -29,6 +18,4 @@
             render:h=>h(APP)
         }).$mount('#app')
     </script>
-</body>
-
-</html>
+```
